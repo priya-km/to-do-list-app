@@ -1,9 +1,10 @@
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
 
 body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
+font-family: 'Chivo Mono', monospace;
+background: #c4ffd4;
+color: #fff;
 }
 
 .container{
@@ -11,7 +12,7 @@ padding: 20px;
 width: 300px;
 margin: 0 auto;
 margin-top: 40px;
-background: white;
+background: rgb(137, 189, 146);
 border-radius: 5px;}
 
 form {
@@ -24,8 +25,8 @@ padding: 4px 15px 4px 5px;
 
 #button{
 display: inline-block;
-background-color:#fc999b;
-color:#ffffff;
+background-color:#bdecb8;
+color:#232323;
 border-radius: 5px;
 text-align:center;
 margin-top:2px;
@@ -40,7 +41,7 @@ ol {padding-left: 20px;}
 
 ol li {padding: 5px;color:#000;}
 
-ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(even){background: #32703d;}
 
 .strike{text-decoration: line-through;}
 
@@ -56,6 +57,6 @@ li > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color: #131313;
 	font-weight: 800;
 }
